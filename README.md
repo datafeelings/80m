@@ -6,3 +6,5 @@ web app. The goal is to make a web app with list and search for places of
 special interest in Berlin.
 
 Work in progress.
+
+![Example](http://www.datafeelings.com/wp-content/uploads/2014/05/Screen-Shot-2014-05-31-at-21.17.17-pm.png)
