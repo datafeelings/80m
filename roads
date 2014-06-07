@@ -1,0 +1,21 @@
+#roads {
+  [zoom >= 15] {
+    text-placement:line;  	
+    text-face-name:'Menlo Regular';
+    text-name:[name];
+    text-fill: @neon-green;
+    text-allow-overlap:false;
+//      	text-placement-type:simple;
+      	text-halo-fill:@dark-green;
+      	text-halo-radius:1;
+//    	text-label-position-tolerance:40;
+//    	text-avoid-edges:true;
+  	text-size: 11;
+  	text-placement: line;
+  	text-min-path-length:100;
+	text-avoid-edges:true;
+  	text-min-distance:50;
+  	text-dy: 6;
+  	text-max-char-angle-delta: 15;
+   }
+}

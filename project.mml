@@ -1,0 +1,164 @@
+{
+  "bounds": [
+    12.7606,
+    52.248,
+    14.057,
+    52.7828
+  ],
+  "center": [
+    13.4308,
+    52.5162,
+    10
+  ],
+  "format": "png",
+  "interactivity": {
+    "layer": "points",
+    "template_teaser": "<style>\n .map-tooltip {\n background: #001F09;\n color:#0584AB\n}\n.leaflet-popup-tip {\n background: #001F09;\n color:#0584AB\n}\n.leaflet-popup-content-wrapper {\n background: #001F09;\n color:#0584AB\n}\n</style>\n\n{{{name}}} ",
+    "fields": [
+      "name"
+    ]
+  },
+  "minzoom": 10,
+  "maxzoom": 17,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss",
+    "labels.mss",
+    "palette.mss",
+    "road-labels.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.99999999990007,
+        -55.91477792755927,
+        180,
+        83.63432689077344
+      ],
+      "id": "10madmin1states",
+      "class": "states",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-1-states-provinces-lakes-shp.zip",
+        "id": "10madmin1states",
+        "project": "80m",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "10madmin1states"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        13.0541745,
+        52.3295791,
+        13.7682653,
+        52.6740161
+      ],
+      "id": "ber-natural",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/dima/Documents/Coding/tilemill/berlin-latest.shp/natural.shp",
+        "id": "ber-natural",
+        "project": "80m",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "ber-natural"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        13.087828,
+        52.3375073,
+        13.7561557,
+        52.6366724
+      ],
+      "id": "places",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/dima/Documents/Coding/tilemill/berlin-latest.shp/places.shp",
+        "id": "places",
+        "project": "80m",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "places"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        13.0834833,
+        52.3372797,
+        13.7614838,
+        52.6769072
+      ],
+      "id": "buildings",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/dima/Documents/Coding/tilemill/berlin-latest.shp/buildings.shp",
+        "id": "buildings",
+        "project": "80m",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "buildings"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        13.0726238,
+        52.3279474,
+        13.764107,
+        52.6799937
+      ],
+      "id": "roads",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/dima/Documents/Coding/tilemill/berlin-latest.shp/roads.shp",
+        "id": "roads",
+        "project": "80m",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "roads"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        13.0721823,
+        52.3192099,
+        13.764107,
+        52.6712353
+      ],
+      "id": "points",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/dima/Documents/Coding/tilemill/berlin-latest.shp/points.shp",
+        "id": "points",
+        "project": "80m",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "points"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "name": "80m",
+  "description": "",
+  "attribution": "",
+  "legend": ""
+}
